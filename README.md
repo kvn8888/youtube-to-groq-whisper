@@ -1,4 +1,3 @@
-```markdown
 # YouTube to Whisper
 
 Brief description of what the project does.
