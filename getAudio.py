@@ -2,8 +2,8 @@ import yt_dlp
 
 options = {
     'format': 'bestaudio/best',
-    'outtmpl': 'youtube-to-groq-whisper/tmp/output',
-    'keepvideo': True,
+    'outtmpl': 'tmp/output',
+    'keepvideo': False,
     'nooverwrites': False,
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
